@@ -1,3 +1,67 @@
+body{
+    background-image: url(../pic/лого.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
 h1{
+    font-size: 45px;
+    text-align: center;
+}
+
+.vertical-menu {
+    width: 120px;
+    margin: 15px;
+}
+
+.vertical-menu a {
+    background-color: rgb(250, 244, 244);
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #f32727;
+}
+
+.vertical-menu a.active {
+    background-color: #f32727;
+    color: white;
+}
+
+.galery{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.image-box {
+    /*width: 100%;*/
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container_pic{
+    width: 500px;
+    border: 1px solid red;
+    margin-top: 15px;
+}
+
+.container_pic img{
+    max-width: 100%;
+}
+
+header{
+    display: flex;
+}
+
+p{
     font-size: 25px;
+    text-align: center;
+    color: #f32727;
 }
